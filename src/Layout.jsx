@@ -3,10 +3,10 @@ import {Outlet, Link} from "react-router-dom";
 const Layout = () =>{
     return(
         <>
-            <h1>My header</h1>
+            <Header />
             <h2>My nav</h2>
 
-            <p>My content</p>
+            <Outlet />
 
             <p>My footer</p>
         </>
